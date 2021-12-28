@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* width, height */
+        div{
+            height: 300px;
+            width: 400px;
+            background-color: rgb(172, 74, 74);
+        }
+        p{
+            height: 200px;
+            width: 300px;
+            background-color: rgb(35, 133, 163); 
+        }
+        /* min-width, max-width */
+        .description {
+            min-width: 150px;
+            max-width: 350px;
+            text-align: left;
+            padding: 4px;
+            margin: 0px;}
+         /* overflow */
+        p{
+            height: 200px;
+            width: 200px;
+        }  
+        .p1{
+            overflow: hidden;
+        } 
+        .p2{
+            overflow: scroll;
+        } 
+        .p3{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <!-- width, height -->
+    <div>
+        <p> Quo minus sunt obcaecati, voluptates debitis <br>in ad incidunt quod quam 
+            unde cupiditate laboru</p>
+    </div>
+    <hr>   
+     <!-- min-width, max-width -->
+    <table>
+        <tr>
+            <th>photo</th>
+            <th>descrition</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/R.e436d0f25577f0c18ccdf077878dd72b?rik=Vo6gHOHJiUBlgg&pid=ImgRaw&r=0&sres=1&sresct=1"
+                width="200" height="100" alt="Fender Rhodes" /></td>
+            <td class="description">The Rhodes piano is an 
+            electro-mechanical piano, invented by Harold 
+            Rhodes during the fifties and later 
+            manufactured in a number of models ...</td>
+            <td>$1400</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Overflow -->
+    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut 
+        voluptas incidunt eaque omnis esse quibusdam numquam blanditiis ea quo aspernatur 
+        exercitationem, recusandae tenetur provident sunt eius aliquid cupiditate 
+        iure asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Soluta magni quaerat, nisi maiores, illum officiis voluptate ab similique 
+        facere error iure consequatur recusandae asperiores autem voluptates ipsam 
+        porro ducimus et!</p>
+    <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+         beatae officia incidunt, non libero soluta amet nesciunt debitis deleniti 
+        ratione doloribus quas est sequi magnam sunt cupiditate, fugiat similique nulla.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ullam perferendis
+         asperiores, suscipit minima eligendi iste aliquid eaque fuga in aut pariatur sint 
+         repellat laudantium, nisi non velit ipsum aliquam!
+    </p>    
+    <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+        beatae officia incidunt, non libero soluta amet nesciunt debitis deleniti 
+       ratione doloribus quas est sequi magnam sunt cupiditate, fugiat similique nulla.
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ullam perferendis
+        asperiores, suscipit minima eligendi iste aliquid eaque fuga in aut pariatur sint 
+        repellat laudantium, nisi non velit ipsum aliquam!
+   </p>    
+</body>
+</html>
