@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* width, height */
+        .de{
+            height: 300px;
+            width: 400px;
+            background-color: rgb(172, 74, 74);
+        }
+       
+        p{
+            height: 200px;
+            width: 300px;
+            background-color: rgba(35, 133, 163, 0.356); 
+        }
+        /* min-width, max-width */
+        .description {
+            min-width: 150px;
+            max-width: 350px;
+            text-align: left;
+            padding: 4px;
+            margin: 0px;}
+         /* overflow */
+        .p1{
+            overflow: hidden;
+        } 
+        .p2{
+            overflow: scroll;
+        } 
+        /* Border margin padding */
+        .p3{
+           border: 10px ridge rgb(109, 16, 16);
+           padding: 20px;
+            margin: 50px;
+        }
+        /* Button */
+        .da{
+            height: 0px;
+            width: 0px;
+            background-color: white;
+            float: right;     
+            margin-right: 50px;      
+        }
+        .da a{
+            text-decoration: none;
+            background-color: yellowgreen;
+            border-radius: 20px;
+            padding: 10px 10px;
+           
+        }
+        .da a:hover{
+            background-color: rgb(183, 230, 89);
+        }
+        /* Display */
+        .dis{
+            background-color: rgb(16, 16, 138);
+            margin-top: 0px;
+        }
+        .dis ul li{
+            display: inline-block;
+            list-style: none;
+            margin-top: 0px;
+            margin-left: 200px;
+           padding: 20px;
+          
+        }
+        .dis ul li:hover{
+            background-color: tomato;
+            border-radius: 5px;
+        }
+        .dis ul li a{
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        /* Box shadow */
+        .p4{
+            border: 10px solid rgb(16, 109, 21);
+            padding: 20px;
+            margin: 50px;
+            box-shadow: 5px 5px 5px 8px rgb(51, 44, 44);
+            border-image: url('https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0')25 repeat;
+        }
+    </style>
+</head>
+<body>
+    <!-- Display -->
+    <div class="dis">
+        <ul> 
+            <li><a id="a" href=""> Home</a></li>
+            <li><a href="#b"> End</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href=""> Contact us</a></li>
+        </ul>
+    </div>
+    
+    <!-- width, height -->
+    <div class="de" >
+        <p> Quo minus sunt obcaecati, voluptates debitis <br>in ad incidunt quod quam 
+            unde cupiditate laboru</p>
+    </div>
+    <hr>   
+     <!-- min-width, max-width -->
+    <table>
+        <tr>
+            <th>photo</th>
+            <th>descrition</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td><img src="https://th.bing.com/th/id/R.e436d0f25577f0c18ccdf077878dd72b?rik=Vo6gHOHJiUBlgg&pid=ImgRaw&r=0&sres=1&sresct=1"
+                width="200" height="100" alt="Fender Rhodes" /></td>
+            <td class="description">The Rhodes piano is an 
+            electro-mechanical piano, invented by Harold 
+            Rhodes during the fifties and later 
+            manufactured in a number of models ...</td>
+            <td>$1400</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Overflow -->
+    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut 
+        voluptas incidunt eaque omnis esse quibusdam numquam blanditiis ea quo aspernatur 
+        exercitationem, recusandae tenetur provident sunt eius aliquid cupiditate 
+        iure asperiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Soluta magni quaerat, nisi maiores, illum officiis voluptate ab similique 
+        facere error iure consequatur recusandae asperiores autem voluptates ipsam 
+        porro ducimus et!</p>
+    <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+         beatae officia incidunt, non libero soluta amet nesciunt debitis deleniti 
+        ratione doloribus quas est sequi magnam sunt cupiditate, fugiat similique nulla.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ullam perferendis
+         asperiores, suscipit minima eligendi iste aliquid eaque fuga in aut pariatur sint 
+         repellat laudantium, nisi non velit ipsum aliquam!
+    </p>  
+      <!-- Border -->
+    <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+        beatae officia incidunt, non libero soluta amet nesciunt debitis deleniti 
+       ratione doloribus quas est sequi magnam sunt cupiditate, fugiat similique nulla.
+       <!-- Box shadow -->
+    <p class="p4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+        beatae officia incidunt, non libero soluta amet nesciunt debitis deleniti 
+       ratione doloribus quas est sequi magnam sunt cupiditate, fugiat similique nulla.   
+    </p> 
+     <!--Button  -->
+    <div id="b" class="da"><a href="#a">Home</a></div>  
+</body>
+</html>
