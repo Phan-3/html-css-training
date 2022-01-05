@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/table-form/asset/css/reset.css">
+    <link rel="stylesheet" href="/table-form/asset/css/styles.css">
+    <title>Practice Form</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <!-- bài 2 -->
+            <h2>Bài 2</h2>
+            <div class="div">
+                <form action="">
+                    <table class="table-one">
+                        <tr>
+                            <td>Username:</td>
+                            <td><input type="text" name="username" required="required">
+                            </td><br>
+                        <tr>
+                            <td> Password:</td>
+                            <td><input type="password" name="password" required="required"></td>
+                        </tr><br>
+                        <td><input class="sub" type="submit" value="Press here" onclick="alert
+                                ('Chưa điền mà đòi click à!! Vào điền lại mấy con lười.')"></td>
+                    </table>
+                </form>
+            </div>
+            <!-- Bài 5 -->
+            <h2>Bài 5</h2>
+            <div class="div">
+                <form>
+                    <table class="table-two">
+                        <tr>
+                            <td>Tên: </td>
+                            <td><input type="text" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td>Mật khẩu: </td>
+                            <td><input type="password" required="required"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Thành phố: </td>
+                            <td><select>
+                                    <option>--CHỌN THÀNH PHỐ--</option>
+                                    <option value="hue">Huế</option>
+                                    <option value="quang_nam">Quảng Nam</option>
+                                    <option value="quang_tri">Quãng Trị</option>
+                                    <option value="ha_noi">Hà Nội</option>
+                                    <option value="ho_chi_minh">Hồ Chí Minh</option>
+                                    <option value="da_nang">Đà Nẵng</option>
+                                    <option value="nha_trang">Nha Trang</option>
+                                    <option value="lao_cai">Lào Cai</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Giới tính: </td>
+                            <td><input type="radio" name="gioitinh">Nam</td>
+                            <td><input type="radio" name="gioitinh">Nữ</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Avatar:</td>
+                            <td></td>
+                            <td><input type="file"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Ngôn ngữ: </td>
+                            <td><input type="checkbox" name="JAVA">JAVA</td>
+                            <td><input type="checkbox" name="NODEJS">NODEJS</td>
+                            <td><input type="checkbox" name="PHP">PHP</td>
+                        </tr>
+                    </table>
+                    <input type="submit" onclick="alert('Vui lòng điền thông tin đầy đủ!!')" value="confirm">
+                </form><br>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
