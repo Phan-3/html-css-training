@@ -1,0 +1,15 @@
+
+.table-one {
+    margin-bottom: 30px;
+    /* -----border-spacing----- */
+    border-spacing: 50px 50px;
+    /* -----empty-cells----- */
+    empty-cells: hide;
+    /*-------- border-collapse------  */
+    border-collapse: separate;
+}
+.table-one tr td {
+    border: 1px solid black;
+}
+
+    

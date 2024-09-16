@@ -1,0 +1,19 @@
+.heading {
+    margin: 0 94px;
+}
+/* --------circle-------- */
+.main-ul-item {
+    list-style: outside circle;
+}
+
+.main-ul-item li {
+    margin: 10px 0 0 0;
+}
+/* --------square-------- */
+.main-ol-item {
+    list-style: square;
+}
+/* -------- disc--------- */
+.main-uls-item {
+    list-style: decimal;
+}
